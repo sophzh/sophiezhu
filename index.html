@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--
+            - primary meta tags
+        -->
+        <title>. Sophie Zhu .</title>
+        <meta name="title" content="Sophie Zhu">
+        <meta name="description" content="welcome to my website c:">
+
+        <!-- 
+        - favicon
+        -->
+        <link rel="shortcut icon" href="imgs/icon.jpeg" type="image/x-icon">
+
+        <!--
+            - custom css link
+        -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!--
+            - preload images
+        -->
+        <link rel="preload" as="image" href="imgs/PPWBphotoofme.JPG">
+        <link rel="preload" as="image" href="imgs/wavyline.png">
+
+    </head>
+
+    <body id="top">
+
+        <!--
+            - #PRELOADER
+        -->
+
+        <div class="preloader" data-preloader>
+                <span class="line"></span>
+        </div>
+
+
+        <!--
+            - #HEADER
+        -->
+
+        <header class="header" data-header>
+            <div class="container">
+
+                <a href="#" class="logo">
+                    <img src="imgs/icon.jpeg" width="77" height="49" alt="sophie sitting in a pink dress holding a drink">
+                </a>
+
+                <nav class="navbar" data-navbar>
+
+                    <div class="navbar-top">
+                        <a href="#" class="logo">
+                            <img src="imgs/icon.jpeg" width="77" height="49" alt="sophie sitting in a pink dress holding a drink">
+                        </a>
+
+                        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                            <ion-icon name="close-circle" aria-hidden="true"></ion-icon>
+                        </button>
+                    </div>
+
+
+                    <ul class="navbar-list">
+
+                        <li>
+                            <a href="#home" class="navbar-link" data-nav-link>home</a>
+                        </li>
+
+                        <li>
+                            <a href="#projects" class="navbar-link" data-nav-link>projects</a>
+                        </li>
+
+                        <li>
+                            <a href="#about" class="navbar-link" data-nav-link>about</a>
+                        </li>
+
+                        <li>
+                            <a href="#fun" class="navbar-link" data-nav-link>fun</a>
+                        </li>
+
+                        <li>
+                            <a href="#extra" class="navbar-link" data-nav-link>extra</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="navbar-link" data-nav-link>contact me !!</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                
+                <a href="#" class="btn btn:hover">
+                    <span class="span">send something</span>
+
+                    <ion-icon name="arrow-forward-circle" aria-hidden="true"></ion-icon>
+                </a>
+
+                <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                  </button>
+
+                <div class="overlay" data-overlay data-nav-toggler></div>
+
+            </div>
+        </header>
+
+        <main>
+            <article>
+
+                <!--
+                    - HERO
+                -->
+
+                <div class="hero text-center" id="home">
+                    <div class="container">
+
+                        <div class="banner-outline has-after">
+                            <div class="hero-banner img-holder has-after" style="--width: 474; --height
+                            : 676;" data-tilt>
+                                <img id="meig" src="imgs/PPWBphotoofme.JPG" width="474" height="676" alt="sophie in a red qipao. sitting on a carved wooden chair. holding a fan. bonsai tree on mini table next to her." class="img-cover">
+                            </div>
+
+                            <span class="span title">c'est moi</span>
+                        </div>
+
+                        <div class="hero-content">
+
+                            <h1 class="h1 title">hey, i'm sophie</h1>
+
+                            <div class="wrapper">
+                                <a href="#" class="btn btn:hover">
+                                    <span class="span">here's a random link</span>
+
+                                    <ion-icon name="dice" aria-hidden="true"></ion-icon>
+                                </a>
+
+                                <p class="hero-text">
+                                    based in los angeles.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <img src="imgs/hero-shape-2.png" width="900" height="565" alt="squiggly!" class="shape shape-1">
+
+                    </div>
+                </div>
+
+
+                <!--
+                    - DETAILS
+                -->
+
+                <section class="details text-center" aria-label="my details" id="details">
+                    <div class="container">
+
+                        <ul class="detail-list">
+
+                            <li class="detail-item">
+                                <div class="detail-card">
+
+                                    <div class="card-icon">
+                                        <img src="imgs/rilakkumaflower.png" width="73" height="73" loading="lazy" alt="rilakkuma and flowers">  
+
+                                        <div class="card-text">
+                                            <span class="span">email</span>
+                                            <ion-icon name="mail" aria-hidden="true" class="detailicon"></ion-icon>
+                                        </div>
+                                    </div>
+
+                                    <h3 class="card-title">
+                                        <a href="#">
+                                            item <br>
+                                            #1
+                                        </a>
+                                    </h3>
+
+                                </div>
+                            </li>
+
+                            <li class="detail-item">
+                                <div class="detail-card">
+
+                                    <div class="card-icon">
+                                        <img src="imgs/rilakkumaeat.png" width="121" height="121" loading="lazy" alt="rilakkuma and flowers">
+                                    </div>
+
+                                    <h3 class="card-title">
+                                        <a href="#">
+                                            item <br>
+                                            #2
+                                        </a>
+                                    </h3>
+
+                                </div>
+                            </li>
+
+                            <li class="detail-item">
+                                <div class="detail-card">
+
+                                    <div class="card-icon">
+                                        <img src="imgs/rilakkumadango.png" width="59" height="59" loading="lazy" alt="rilakkuma and flowers">
+                                    </div>
+
+                                    <h3 class="card-title">
+                                        <a href="#">
+                                            item <br>
+                                            #3
+                                        </a>
+                                    </h3>
+
+                                </div>
+                            </li>
+
+                            <li class="detail-item">
+                                <div class="detail-card">
+
+                                    <div class="card-icon">
+                                        <img src="imgs/rilakkumacat.png" width="77" height="77" loading="lazy" alt="rilakkuma and flowers">
+                                    </div>
+
+                                    <h3 class="card-title">
+                                        <a href="#">
+                                            item <br>
+                                            #4
+                                        </a>
+                                    </h3>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div> 
+                </section>
+
+                <!--
+                    - ABOUT
+                -->
+
+                <section class="section about" aria-label="about-me" id="about">
+                    <div class="container">
+
+                        <div class="tab-container">
+
+                            <ul class="tab-btn-list">
+
+                                <li class="tab-btn-item">
+                                    <button class="tab-btn title h6 active" data-tab-btn="about">about me</button>
+                                </li>
+
+                                <li class="tab-btn-item">
+                                    <button class="tab-btn title h6" data-tab-btn="courses">courses</button>
+                                </li>
+
+                                <li class="tab-btn-item">
+                                    <button class="tab-btn title h6" data-tab-btn="info">projects</button>
+                                </li>
+<!--
+                                <li class="tab-btn-item">
+                                    <button class="tab-btn title h6" data-tab-btn="involve">involve</button>
+                                </li>
+                            -->
+
+                                <li class="tab-btn-item">
+                                    <button class="tab-btn title h6" data-tab-btn="extra">extra</button>
+                                </li>
+
+                            </ul>
+
+                            <div class="tab-content active" data-tab-content="about">
+                                <div class="grid-list">
+
+                                    <figure class="about-banner img-holder" style="--width: 575; --height: 232;" data-tilt>
+                                        <img src="imgs/yosepano.jpeg" width="575" height="232" loading="lazy" alt="pano of yosemite" class="img-cover">
+                                    </figure>
+
+                                    <div class="about-content">
+
+                                        <h2 class="h4 section-title">
+                                            FILLER  1
+                                        </h2>
+
+                                        <p class="section-text">
+                                            IDK WHERE THIS ACTUALLY GOES SO HERE IG
+                                        </p>
+
+                                        <ul class="about-list">
+
+                                            <li class="about-item">
+                                                <p class="list-title">name</p>
+
+                                                <span class="span title h5">sophie zhu</span>
+                                            </li>
+
+                                            <li class="about-item">
+                                                <p class="list-title">email</p>
+
+                                                <span class="span title h5">sophzh@ucla.edu</span>
+                                            </li>
+
+                                            <li class="about-item">
+                                                <p class="list-title">phone</p>
+
+                                                <span class="span title h5">310.896.8055</span>
+                                            </li>
+
+                                            <li class="about-item">
+                                                <p class="list-title">socials</p>
+
+                                                <div class="social-list">
+
+                                                    <a href="#" class="social-link h6" title="Linkedin">ln.</a>
+                                                    <a href="#" class="social-link h6" title="GitHub?">gh.</a>
+
+
+                                                </div>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="tab-content" data-tab-content="courses">
+                                <div class="grid-list">
+
+                                    <div class="courses-content">
+
+                                        <h3 class="h4 title section-title">
+                                            some title ig
+                                        </h3>
+
+                                        <p class="section-text">
+                                            some things i do
+                                        </p>
+
+                                        <ul class="courses-list">
+
+                                            <li>
+                                                <div class="courses-wrapper">
+                                                    <span class="span">making</span>
+
+                                                    <span class="value">33%</span>
+                                                </div>
+
+                                                <div class="progress-bar">
+                                                    <div class="progress-fill" style="width: 33%"></div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="courses-wrapper">
+                                                    <span class="span">baking</span>
+
+                                                    <span class="value">33%</span>
+                                                </div>
+
+                                                <div class="progress-bar">
+                                                    <div class="progress-fill" style="width: 33%"></div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="courses-wrapper">
+                                                    <span class="span">resting</span>
+
+                                                    <span class="value">33%</span>
+                                                </div>
+
+                                                <div class="progress-bar">
+                                                    <div class="progress-fill" style="width: 33%"></div>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                    <figure class="courses-banner img-holder" style="--width: 575; --height: 232;" data-tilt>
+                                        <img src="imgs/beachpano.jpeg" width="575" height="232" loading="lazy" alt="pano of a beach" class="img-cover">
+                                    </figure>
+
+                                </div>
+                            </div>
+
+                            <div class="tab-content" data-tab-content="info">
+                                <div class="grid-list">
+
+                                    <div class="info-card img-holder" style="--width: 424; --height: 277;" data-tilt>
+                                        <img src="imgs/sztree.jpeg" alt="me and my tree" width="424" height="277" loading="lazy" class="img-cover">
+
+                                        <button class="btn btn:hover">play</button>
+                                    </div>
+
+                                    <div class="info-card img-holder" style="--width: 424; --height: 277;" data-tilt>
+                                        <img src="imgs/moietaudum.jpeg" alt="moi et autumn" width="424" height="277" loading="lazy" class="img-cover">
+
+                                        <button class="btn btn:hover">play</button>
+                                    </div>
+
+                                    <div class="info-card img-holder" style="--width: 424; --height: 277;" data-tilt>
+                                        <img src="imgs/hk.jpeg" alt="hong kong" width="424" height="277" loading="lazy" class="img-cover">
+
+                                        <button class="btn btn:hover">play</button>
+                                    </div>
+
+                                </div>
+                            </div>
+<!--
+                            <div class="tab-content" data-tab-content="involve">
+
+                                <h3 class="h4 title section-title">
+                                    some information about stuff
+                                </h3>
+
+                                <ul class="grid-list">
+
+                                    <li>
+                                        <div class="involve-card">
+                                            <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                                                <img src="imgs/phoaut.jpeg" width="534" height="383" loading="lazy" alt="spring rolls and brunch" class="img-cover">
+                                            </figure>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="involve-card">
+                                            <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                                                <img src="imgs/toadstoolcaf.jpeg" width="534" height="383" loading="lazy" alt="toadstool cafe" class="img-cover">
+                                            </figure>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="involve-card">
+                                            <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                                                <img src="imgs/chkbbq.jpeg" width="534" height="383" loading="lazy" alt="kbbq" class="img-cover">
+                                            </figure>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        -->
+                            
+                            <div class="tab-content" data-tab-content="extra">
+                                <ul class="grid-list">
+
+                                    <div class="extra-content">
+
+
+                                    </div>
+
+                                    <li>
+                                        <div class="extra-card">
+
+                                            <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                                                <img src="imgs/bdcupcakes.jpeg" width="376" height="200" loading="lazy" alt="cupcakes" class="img-cover">
+                                            </figure>
+
+                                            <div class="card-icon">
+                                                <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+
+
+
+                <!--
+                    -#PROJECTS
+                -->
+
+                <section class="section project" aria-label="my projects" id="project">
+
+                    <ul class="slider-list">
+
+                        <li class="slider-item">
+                            <div class="project-card text-center">
+
+                                <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                                    <img src="imgs/strbry.jpeg" width="1000" height="763" loading="lazy" alt="strawberries" class="img-cover">
+                                
+                                    <a href="#" class="btn btn:hover">
+                                        <span class="span">Project Details</span>
+
+                                        <ion-icon name="arrow-forward-circle" aria-hidden="true"></ion-icon>                                    </a>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle">Web, Product</p>
+
+                                    <h3 class="title h3">
+                                        <a href="#" class="card-title">I DONT KNOW WHAT GOES HERE</a>
+                                    </h3>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="slider-item">
+                            <div class="project-card text-center">
+
+                                <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                                    <img src="imgs/phoaut.jpeg" width="1000" height="763" loading="lazy" alt="pho" class="img-cover">
+                                
+                                    <a href="#" class="btn btn:hover">
+                                        <span class="span">Project Details</span>
+
+                                        <ion-icon name="arrow-forward-circle" aria-hidden="true"></ion-icon>                                    </a>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle">Web, Product</p>
+
+                                    <h3 class="title h3">
+                                        <a href="#" class="card-title">I DONT KNOW WHAT GOES HERE 2</a>
+                                    </h3>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="slider-item">
+                            <div class="project-card text-center">
+
+                                <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                                    <img src="imgs/toadstoolcaf.jpeg" width="1000" height="763" loading="lazy" alt="food" class="img-cover">
+                                
+                                    <a href="#" class="btn btn:hover">
+                                        <span class="span">Project Details</span>
+
+                                        <ion-icon name="arrow-forward-circle" aria-hidden="true"></ion-icon>                                    </a>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle">Web, Product</p>
+
+                                    <h3 class="title h3">
+                                        <a href="#" class="card-title">I DONT KNOW WHAT GOES HERE 3</a>
+                                    </h3>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+        </main>
+
+<!--
+    - #CURSOR
+-->
+
+<div class="cursor-dot" data-cursor></div>
+<div class="cursor-outline" data-cursor></div>
+        
+<!--
+        <main>
+            <h1>hey! i'm sophie!</h1>
+            <h2>based in los angeles.</h2>
+            
+            <br\>
+
+            <div>
+                <ul>
+                    <li>first-year math of comp at UCLA</li>
+                    <li>avid maker</li>
+                    <li>loves noodles, fruit, and matcha</li>
+                </ul>
+            </div>
+        </main>
+
+<!--
+    - #FOOTER
+-->
+
+<footer class="footer">
+    <div class="container">
+
+        <p class="copyright">
+            @ Sophie Zhu 2024
+        </p>
+
+        <a href="#" class="back-top-btn">
+            <span class="span">to top</span>
+
+            <ion-icon name="chevron-up-circle" aria-hidden="true"></ion-icon>
+        </a>
+
+    </div>
+</footer>
+
+
+        <!--
+            - custom js link
+        -->
+        <script src="script.js"></script>
+
+        <!--
+            - ion-icon??
+        -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    </body>
+</html>
