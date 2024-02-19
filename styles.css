@@ -295,26 +295,24 @@ body.nav-active { overflow: hidden; }
     left: 0;
     width: 100%;
     height: 100vh;
-    box-shadow: inset 55vw 0 0 0 var(--bg-eerie-black),
-                inset -55vw 0 0 0 var(--bg-eerie-black);
+    box-shadow: inset 55vw 0 0 0 var(--bg-light-grey),
+                inset -55vw 0 0 0 var(--bg-light-grey);
     display: grid;
     place-items: center;
     z-index: 10;
-
-    display: none;
 }
 
 .preloader.loaded {
-    transition: 300ms ease 500ms;
+    transition: 400ms ease 500ms;
     pointer-events: none;
-    box-shadow: inset 0 0 0 0 var(--bg-eerie-black)
-                inset 0 0 0 0 var(--bg-eerie-black);
+    box-shadow: inset 0 0 0 0 var(--bg-light-grey)
+                inset 0 0 0 0 var(--bg-light-grey);
 }
 
 .preloader .line {
     width: 2px;
     height: 100%;
-    background-color: var(--bg-light-blue);
+    background-color: var(--bg-jet);
     transition: var(--transition-2);
     animation: loading 1000ms linear forwards;
 }
@@ -515,7 +513,8 @@ body.nav-active { overflow: hidden; }
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: var(--fontSize-8);
+    font-size: var(--fontSize-9);
+    font-family: var(--fontFamily-extra);
     min-width: max-content;
     z-index: 1;
 }
@@ -595,9 +594,19 @@ body.nav-active { overflow: hidden; }
     padding-left: 11%;
 }
 
-.detailicon {
+#mailicon {
     padding-left: 7%;
     padding-top: 8%;
+}
+
+#linkedinicon {
+    padding-left: 6%;
+    padding-top: 5%;
+}
+
+#githubicon {
+    font-size: 3.3rem;
+    padding-left: 9%;
 }
 
 
@@ -1165,19 +1174,14 @@ body.nav-active { overflow: hidden; }
 
 @media (min-width: 1500px) {
 
-    /** reused style */
+    /** details */
 
-    .container,
     .details .container { max-width: 1313px; } 
 
 
     /** header */
 
     .header { padding-inline: 90px; }
-
-    /** hero */
-
-    .hero .container { grid-template-columns: 1fr 0.88fr; }
 
 
 }
