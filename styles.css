@@ -599,6 +599,14 @@ body.nav-active { overflow: hidden; }
     padding-top: 8%;
 }
 
+.linkedin-item {
+    padding-top: 1.1rem;
+}
+
+.github-item {
+    padding-top: 1.8rem;
+}
+
 #linkedinicon {
     padding-left: 6%;
     padding-top: 5%;
