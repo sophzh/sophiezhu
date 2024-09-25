@@ -681,12 +681,16 @@ body.nav-active { overflow: hidden; }
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-block: 30px 12px;
+    margin-block: 27px 12px;
 }
 
 .courses-wrapper .span {
     font-family: var(--fontFamily-baskerville);
     font-weight: var(--weight-medium);
+}
+
+.courses-list {
+    padding-bottom: 10%;
 }
 
 .progress-bar {
