@@ -607,13 +607,16 @@ body.nav-active { overflow: hidden; }
     padding-top: 1.8rem;
 }
 
+.tbd-item {padding-top: 1.3rem;}
+
+
 #linkedinicon {
     padding-left: 6%;
     padding-top: 5%;
 }
 
 #githubicon {
-    font-size: 3.3rem;
+    font-size: 3.2rem;
     padding-left: 9%;
 }
 
@@ -896,7 +899,7 @@ body.nav-active { overflow: hidden; }
 
     .detail-item { width: 50%; }
 
-    .detail-item:nth-child(2n) {
+    .detail-item:nth-child(6em) {
         border-inline-start: 1px solid var(--border-light-grey);
     }
 
